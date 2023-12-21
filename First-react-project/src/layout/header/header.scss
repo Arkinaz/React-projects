@@ -1,0 +1,31 @@
+header {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    h1 {
+      display: flex;
+      gap: 10px;
+      color: purple;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 40px;
+        a {
+          color: purple;
+          padding: 10px;
+          transition: all 0.5s;
+          border-radius: 20px;
+
+          &:hover {
+            padding: 10px;
+            background-color: purple;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
