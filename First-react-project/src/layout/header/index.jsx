@@ -2,6 +2,7 @@ import "./header.scss";
 import { FaBeer } from "react-icons/fa";
 
 import React from "react";
+import ButtonThing from "../../components/buttons/button";
 
 function Header() {
   return (
@@ -31,6 +32,7 @@ function Header() {
               </li>
             </ul>
           </nav>
+          <ButtonThing nameBtn="HEADER" bgColor="orange" />
         </div>
       </div>
     </header>

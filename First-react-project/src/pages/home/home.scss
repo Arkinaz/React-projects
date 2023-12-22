@@ -1,0 +1,38 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  background-color: purple;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#home {
+  .home {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    table {
+      border-collapse: collapse;
+      thead {
+        tr {
+          th {
+            padding: 10px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          &:nth-child(odd) {
+            td {
+              background-color: rgb(199, 112, 202);
+            }
+          }
+          td {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
