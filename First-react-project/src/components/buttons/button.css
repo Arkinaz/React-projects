@@ -1,0 +1,16 @@
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aqua;
+  color: white;
+  transition: all 0.6s;
+}
+button.orange-btn {
+  background-color: orange;
+}
+button.orange-btn:hover {
+  background-color: red;
+}
+button:hover {
+  background-color: blue;
+}/*# sourceMappingURL=button.css.map */

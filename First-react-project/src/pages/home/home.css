@@ -1,0 +1,26 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  background-color: purple;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#home .home {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+#home .home table {
+  border-collapse: collapse;
+}
+#home .home table thead tr th {
+  padding: 10px;
+}
+#home .home table tbody tr:nth-child(odd) td {
+  background-color: rgb(199, 112, 202);
+}
+#home .home table tbody tr td {
+  padding: 10px;
+}/*# sourceMappingURL=home.css.map */
