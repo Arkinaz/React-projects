@@ -7,6 +7,7 @@ import Contact from "./components/pages/contact/contact";
 import Details from "./components/pages/details/details";
 import Error from "./components/pages/eroor/error";
 import Home from "./components/pages/home/home";
+import Products from "./components/pages/products/products";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/home/:id" element={<Details />} />
+        <Route path="/products/:id" element={<Details />} />
         <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

@@ -20,6 +20,9 @@ const Header = () => {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
+              <li>
+                <NavLink to="/products">Products</NavLink>
+              </li>
             </ul>
           </nav>
         </div>
